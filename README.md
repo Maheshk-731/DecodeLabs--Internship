@@ -6,18 +6,18 @@
 
 ## What This Is
 
-Project 1 was the frontend (HTML, CSS, JS) — a responsive landing page for a fictional dev-training platform called BuildDeveloper.
+**Project 1 was the frontend (HTML, CSS, JS) — a responsive landing page for a fictional dev-training platform called BuildDeveloper.
 
-Repository
+##Repository--
 https://github.com/Maheshk-731/DecodeLabs--Internship
 
-Live Demo
+##Live Demo --
 https://maheshk-731.github.io/DecodeLabs--Internship/Project%20-1%20Frontend/
 
 
-Project 2 adds the backend: a Node.js + Express server that serves that frontend **and** powers a small set of REST API endpoints backed by JSON files (no database yet — that's Project 3).
+**Project 2 adds the backend: a Node.js + Express server that serves that frontend **and** powers a small set of REST API endpoints backed by JSON files (no database yet — that's Project 3).
 
-Repository
+##Repository
 https://github.com/Maheshk-731/DecodeLabs--Internship
 
 ---
