@@ -8,9 +8,17 @@
 
 Project 1 was the frontend (HTML, CSS, JS) — a responsive landing page for a fictional dev-training platform called BuildDeveloper.
 
+Repository
+https://github.com/Maheshk-731/DecodeLabs--Internship
+
+Live Demo
+https://maheshk-731.github.io/DecodeLabs--Internship/Project%20-1%20Frontend/
+
+
 Project 2 adds the backend: a Node.js + Express server that serves that frontend **and** powers a small set of REST API endpoints backed by JSON files (no database yet — that's Project 3).
 
-**Project 1's frontend files are untouched.** The backend just sits alongside them.
+Repository
+https://github.com/Maheshk-731/DecodeLabs--Internship
 
 ---
 
@@ -133,6 +141,12 @@ builddeveloper/
 | 500  | Internal Server Error | File read/write failed on the server      |
 
 ---
+
+Tools
+  1. VS Code
+  2. Postman
+  3. GitHub
+
 
 ## Author
 
