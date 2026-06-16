@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "icon": "🎨",
+    "title": "Responsive Interface",
+    "description": "Build a responsive multi-section webpage with semantic HTML5, CSS Grid, Flexbox, and vanilla JavaScript. No frameworks — master the fundamentals first.",
+    "status": "completed",
+    "difficulty": "beginner",
+    "estimatedHours": 8,
+    "skills": ["HTML5", "CSS3", "Flexbox", "CSS Grid", "Vanilla JS"]
+  },
+  {
+    "id": 2,
+    "icon": "⚙️",
+    "title": "REST API Backend",
+    "description": "Design and build a Node.js REST API with routing, middleware, and error handling. Connect to a real database and understand HTTP deeply.",
+    "status": "in-progress",
+    "difficulty": "intermediate",
+    "estimatedHours": 12,
+    "skills": ["Node.js", "Express", "REST", "JSON", "HTTP Methods"]
+  },
+  {
+    "id": 3,
+    "icon": "🗄️",
+    "title": "Database Design",
+    "description": "Model data with PostgreSQL. Write migrations, seeds, and complex queries. Understand the difference between relational and document databases.",
+    "status": "locked",
+    "difficulty": "intermediate",
+    "estimatedHours": 15,
+    "skills": ["PostgreSQL", "SQL", "Migrations", "Database Design"]
+  },
+  {
+    "id": 4,
+    "icon": "🚀",
+    "title": "Deploy and Ship",
+    "description": "Package your app with Docker, push to GitHub, configure CI/CD pipelines, and deploy to the cloud. Ship something the world can actually use.",
+    "status": "locked",
+    "difficulty": "advanced",
+    "estimatedHours": 20,
+    "skills": ["Docker", "GitHub", "CI/CD", "Cloud Deployment"]
+  }
+]

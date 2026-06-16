@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BuildDeveloper — DecodeLabs Project 1</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav>
+      <div class="logo">Build<span>Developer</span></div>
+
+      <ul class="nav-links">
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#community">Community</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <button class="btn-nav">Start Building</button>
+        <!-- hamburger for mobile -->
+        <button class="hamburger" id="burger" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <ul class="mobile-nav" id="mob-menu">
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#community">Community</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+
+      <div>
+        <span class="badge fade-in">🏗️ Full-Stack Industrial Training — 2026</span>
+
+        <h1 class="hero-title fade-in">
+          Craft the Web.<br />
+          <span class="highlight">Build for Real.</span>
+        </h1>
+
+        <p class="hero-sub fade-in">
+          Stop watching tutorials. BuildDeveloper puts you in the seat of a junior developer — real projects, real deadlines, and a real portfolio you can show employers.
+        </p>
+
+        <div class="hero-btns fade-in">
+          <button class="btn-primary">Get Started Free →</button>
+          <button class="btn-ghost">View Projects</button>
+        </div>
+
+        <div class="hero-stats fade-in">
+          <div>
+            <span class="stat-num">2,400+</span>
+            <span class="stat-label">Active Interns</span>
+          </div>
+          <div>
+            <span class="stat-num">12</span>
+            <span class="stat-label">Real Projects</span>
+          </div>
+          <div>
+            <span class="stat-num">94%</span>
+            <span class="stat-label">Placement Rate</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- code preview card — hidden on mobile, shows on tablet+ -->
+      <div class="hero-panel fade-in">
+        <div class="code-card">
+          <p class="card-label">PROJECT 1 — IN PROGRESS</p>
+          <p class="card-sub">Responsive Frontend Interface</p>
+
+          <pre><code><span class="c-tag">&lt;header&gt;</span>
+  <span class="c-tag">&lt;nav</span> <span class="c-attr">class</span>=<span class="c-val">"navbar"</span><span class="c-tag">&gt;</span>
+    Logo · Links · CTA
+  <span class="c-tag">&lt;/nav&gt;</span>
+<span class="c-tag">&lt;/header&gt;</span>
+<span class="c-tag">&lt;main&gt;</span>
+  <span class="c-tag">&lt;section</span> <span class="c-attr">class</span>=<span class="c-val">"hero"</span><span class="c-tag">&gt;</span>
+    ...
+  <span class="c-tag">&lt;/section&gt;</span>
+<span class="c-tag">&lt;/main&gt;</span></code></pre>
+
+          <p class="prog-label">Overall Completion</p>
+          <div class="prog-track">
+            <div class="prog-fill"></div>
+          </div>
+
+          <div style="margin-top: 1rem;">
+            <span class="pill-tag pill-blue">✓ Mobile First</span>
+            <span class="pill-tag pill-mocha">WCAG 2.1 AA</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- course tracks -->
+  <section id="courses" style="background: #fff;">
+    <div class="section-inner">
+      <p class="section-eyebrow fade-in">What You Will Build</p>
+      <h2 class="section-title fade-in">Four Core Tracks</h2>
+      <p class="section-desc fade-in">Each track is a real-world milestone. Complete them in order — the foundation always comes first.</p>
+
+      <div class="cards-grid">
+
+        <article class="card card-mocha fade-in">
+          <div class="card-icon">🎨</div>
+          <h3>Responsive Interface</h3>
+          <p>Build a responsive multi-section webpage with semantic HTML5, CSS Grid, Flexbox, and vanilla JavaScript. No frameworks — master the fundamentals first.</p>
+          <a class="card-cta" href="#">Start Track →</a>
+        </article>
+
+        <article class="card card-blue fade-in">
+          <div class="card-icon">⚙️</div>
+          <h3>REST API Backend</h3>
+          <p>Design and build a Node.js REST API with routing, middleware, and error handling. Connect to a real database and understand HTTP deeply.</p>
+          <a class="card-cta" href="#">Start Track →</a>
+        </article>
+
+        <article class="card card-grey fade-in">
+          <div class="card-icon">🗄️</div>
+          <h3>Database Design</h3>
+          <p>Model data with PostgreSQL. Write migrations, seeds, and complex queries. Understand the difference between relational and document databases.</p>
+          <a class="card-cta" href="#">Start Track →</a>
+        </article>
+
+        <article class="card card-dark fade-in">
+          <div class="card-icon">🚀</div>
+          <h3>Deploy &amp; Ship</h3>
+          <p>Package your app with Docker, push to GitHub, configure CI/CD pipelines, and deploy to the cloud. Ship something the world can actually use.</p>
+          <a class="card-cta" href="#">Start Track →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- articles + sidebar -->
+  <section id="resources">
+    <div class="section-inner">
+      <p class="section-eyebrow fade-in">Learning Resources</p>
+      <h2 class="section-title fade-in">Featured Articles</h2>
+      <p class="section-desc fade-in">Curated reading to deepen understanding alongside hands-on projects.</p>
+
+      <div class="content-wrap">
+
+        <main class="articles">
+
+          <article class="article-card fade-in">
+            <span class="article-tag tag-m">HTML5 Semantics</span>
+            <h3>Why &lt;div&gt; Soup Destroys Accessibility</h3>
+            <p>The right landmark elements are the difference between a page that works for everyone and one that fails screen readers, AI crawlers, and SEO bots alike.</p>
+            <div class="article-meta">
+              <span>8 min read</span>
+              <span class="dot"></span>
+              <span>Beginner</span>
+              <span class="dot"></span>
+              <span>Pillar 3</span>
+            </div>
+          </article>
+
+          <article class="article-card fade-in">
+            <span class="article-tag tag-b">CSS Layout</span>
+            <h3>CSS Grid vs Flexbox: Right Tool for Every Layer</h3>
+            <p>Grid handles your macro architecture — the full page floor-plan. Flexbox aligns the furniture inside each room. Mixing them intentionally is a senior developer's mark.</p>
+            <div class="article-meta">
+              <span>12 min read</span>
+              <span class="dot"></span>
+              <span>Intermediate</span>
+              <span class="dot"></span>
+              <span>Pillar 3</span>
+            </div>
+          </article>
+
+          <article class="article-card fade-in">
+            <span class="article-tag tag-m">Responsive Design</span>
+            <h3>The Mobile-First Mindset: min-width Queries Done Right</h3>
+            <p>Starting from mobile constraints forces you to prioritise content. Expanding outward at 768px and 1024px keeps your CSS lean, logical, and easy to debug.</p>
+            <div class="article-meta">
+              <span>10 min read</span>
+              <span class="dot"></span>
+              <span>Beginner</span>
+              <span class="dot"></span>
+              <span>Pillar 3</span>
+            </div>
+          </article>
+
+        </main>
+
+        <!-- sidebar widgets -->
+        <aside class="sidebar">
+
+          <div class="widget fade-in">
+            <h4>Your Progress — Project 1</h4>
+
+            <div class="skill-row">
+              <div style="flex: 1">
+                <div class="skill-name">HTML Semantics</div>
+                <div class="bar-bg"><div class="bar-fill" style="width: 90%"></div></div>
+              </div>
+              <span class="skill-pct">90%</span>
+            </div>
+
+            <div class="skill-row">
+              <div style="flex: 1">
+                <div class="skill-name">CSS Grid &amp; Flex</div>
+                <div class="bar-bg"><div class="bar-fill" style="width: 70%"></div></div>
+              </div>
+              <span class="skill-pct">70%</span>
+            </div>
+
+            <div class="skill-row">
+              <div style="flex: 1">
+                <div class="skill-name">Responsive Layout</div>
+                <div class="bar-bg"><div class="bar-fill" style="width: 55%"></div></div>
+              </div>
+              <span class="skill-pct">55%</span>
+            </div>
+
+            <div class="skill-row">
+              <div style="flex: 1">
+                <div class="skill-name">JavaScript Logic</div>
+                <div class="bar-bg"><div class="bar-fill" style="width: 40%"></div></div>
+              </div>
+              <span class="skill-pct">40%</span>
+            </div>
+          </div>
+
+          <div class="widget fade-in">
+            <h4>Project 1 Quick Tips</h4>
+            <ul class="tips-list">
+              <li>Start in grayscale — color comes last.</li>
+              <li>Use clamp() for fluid font sizes.</li>
+              <li>Test on a real phone, not just DevTools.</li>
+              <li>Validate HTML at validator.w3.org.</li>
+              <li>Run Lighthouse before submission.</li>
+            </ul>
+          </div>
+
+          <div class="widget fade-in">
+            <h4>Weekly Dev Drop</h4>
+            <p class="nl-desc">One resource + one tip, every Thursday.</p>
+            <div class="nl-form">
+              <input type="email" id="nl-email" placeholder="your@email.com" />
+              <button class="btn-sub" id="nl-btn">Subscribe →</button>
+            </div>
+            <p id="nl-msg" style="font-size: 0.8rem; margin-top: 0.5rem; color: var(--mocha); display: none;">
+              ✓ You're subscribed!
+            </p>
+          </div>
+
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonials -->
+  <section class="testimonial-section" id="community">
+    <div class="t-inner">
+      <p class="t-eyebrow fade-in">From the Community</p>
+      <h2 class="section-title fade-in" style="color: #fff; margin-bottom: 2rem;">What Interns Are Saying</h2>
+
+      <div class="t-grid">
+
+        <div class="t-card fade-in">
+          <p class="t-quote">"Project 1 felt hard because I kept reaching for Bootstrap. Once I wrote the grid myself, everything clicked. Now I understand what frameworks are actually doing under the hood."</p>
+          <p class="t-name">Ananya Sharma</p>
+          <p class="t-role">Frontend Intern → Junior Dev at Infosys</p>
+        </div>
+
+        <div class="t-card fade-in">
+          <p class="t-quote">"The mobile-first rule changed how I think. Writing min-width queries from scratch is a completely different — and better — way to approach layout. I will never go back."</p>
+          <p class="t-name">Rohan Mehta</p>
+          <p class="t-role">Full Stack Intern → SDE-1 at a Startup</p>
+        </div>
+
+        <div class="t-card fade-in">
+          <p class="t-quote">"I showed my Project 1 to three companies. All three were impressed by the Lighthouse accessibility score. That score came entirely from writing proper semantic HTML."</p>
+          <p class="t-name">Priya Iyer</p>
+          <p class="t-role">Batch 2025 — Placed in 3 weeks</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="footer">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <div class="logo">Build<span>Developer</span></div>
+        <p>Hands-on industrial training for the next generation of full-stack developers. Powered by DecodeLabs.</p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Platform</h5>
+        <ul>
+          <li><a href="#">All Projects</a></li>
+          <li><a href="#">Leaderboard</a></li>
+          <li><a href="#">Certificates</a></li>
+          <li><a href="#">Mentorship</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Resources</h5>
+        <ul>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Cheat Sheets</a></li>
+          <li><a href="#">Tools</a></li>
+          <li><a href="#">Community</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 BuildDeveloper — Powered by DecodeLabs</p>
+      <p>HTML5 · CSS3 · Vanilla JS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

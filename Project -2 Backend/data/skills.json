@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "HTML Semantics",
+    "progress": 90,
+    "level": "advanced",
+    "project": 1
+  },
+  {
+    "id": 2,
+    "name": "CSS Grid and Flex",
+    "progress": 70,
+    "level": "intermediate",
+    "project": 1
+  },
+  {
+    "id": 3,
+    "name": "Responsive Layout",
+    "progress": 55,
+    "level": "intermediate",
+    "project": 1
+  },
+  {
+    "id": 4,
+    "name": "JavaScript Logic",
+    "progress": 40,
+    "level": "beginner",
+    "project": 1
+  }
+]
